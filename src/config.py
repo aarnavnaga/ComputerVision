@@ -1,0 +1,12 @@
+MODEL_NAME = "yolov8n.pt"
+CONFIDENCE_THRESHOLD = 0.5
+CAMERA_INDEX = 0
+WINDOW_NAME = "Object Detection"
+BOX_COLOR = (0, 255, 0)  # Green in BGR
+LABEL_COLOR = (255, 255, 255)  # White text
+LABEL_BG_COLOR = (0, 255, 0)  # Green background for labels
+LABEL_FONT_SCALE = 0.6
+LABEL_THICKNESS = 2
+BOX_THICKNESS = 2
+FRAME_WIDTH = 1280
+FRAME_HEIGHT = 720
