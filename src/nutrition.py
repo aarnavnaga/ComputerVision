@@ -83,6 +83,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "mushroom":   NutritionInfo(calories=15,  protein_g=2.2,  carbs_g=2.3,  fat_g=0.2,  serving_desc="1 cup sliced"),
     "onion":      NutritionInfo(calories=44,  protein_g=1.2,  carbs_g=10.3, fat_g=0.1,  serving_desc="1 medium"),
     "pepper":     NutritionInfo(calories=37,  protein_g=1.2,  carbs_g=7.0,  fat_g=0.4,  serving_desc="1 medium bell"),
+    "kiwi":       NutritionInfo(calories=42,  protein_g=0.8,  carbs_g=10.1, fat_g=0.4,  serving_desc="1 medium"),
+    "cherry":     NutritionInfo(calories=87,  protein_g=1.5,  carbs_g=22.0, fat_g=0.3,  serving_desc="1 cup pitted"),
+    "raspberry":  NutritionInfo(calories=64,  protein_g=1.5,  carbs_g=14.7, fat_g=0.8,  serving_desc="1 cup"),
+    "zucchini":   NutritionInfo(calories=21,  protein_g=1.5,  carbs_g=3.9,  fat_g=0.4,  serving_desc="1 medium"),
+    "cauliflower": NutritionInfo(calories=27, protein_g=2.1,  carbs_g=5.3,  fat_g=0.3,  serving_desc="1 cup chopped"),
 }
 
 
