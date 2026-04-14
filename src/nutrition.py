@@ -73,6 +73,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "bacon":      NutritionInfo(calories=43,  protein_g=3.0,  carbs_g=0.1,  fat_g=3.3,  serving_desc="1 slice cooked"),
     "oatmeal":    NutritionInfo(calories=158, protein_g=6.0,  carbs_g=27.0, fat_g=3.2,  serving_desc="1 cup cooked"),
     "popcorn":    NutritionInfo(calories=31,  protein_g=1.0,  carbs_g=6.2,  fat_g=0.4,  serving_desc="1 cup air-popped"),
+    "almond":     NutritionInfo(calories=164, protein_g=6.0,  carbs_g=6.1,  fat_g=14.0, serving_desc="1 oz (23 nuts)"),
+    "peanut butter": NutritionInfo(calories=188, protein_g=8.0, carbs_g=6.0, fat_g=16.0, serving_desc="2 tbsp"),
+    "hummus":     NutritionInfo(calories=166, protein_g=7.9,  carbs_g=14.3, fat_g=9.6,  serving_desc="1/2 cup"),
+    "tofu":       NutritionInfo(calories=94,  protein_g=10.0, carbs_g=2.3,  fat_g=6.0,  serving_desc="1/2 cup firm"),
+    "corn":       NutritionInfo(calories=125, protein_g=4.7,  carbs_g=27.0, fat_g=2.0,  serving_desc="1 medium ear"),
 }
 
 
