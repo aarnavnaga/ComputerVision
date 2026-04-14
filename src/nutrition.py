@@ -98,6 +98,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "steak":      NutritionInfo(calories=271, protein_g=26.0, carbs_g=0.0,  fat_g=18.0, serving_desc="3 oz ribeye"),
     "meatball":   NutritionInfo(calories=72,  protein_g=4.0,  carbs_g=2.0,  fat_g=5.0,  serving_desc="1 medium"),
     "ramen":      NutritionInfo(calories=380, protein_g=10.0, carbs_g=52.0, fat_g=14.0, serving_desc="1 bowl"),
+    "dumpling":   NutritionInfo(calories=65,  protein_g=2.5,  carbs_g=8.0,  fat_g=2.5,  serving_desc="1 piece"),
+    "pretzel":    NutritionInfo(calories=108, protein_g=3.0,  carbs_g=22.5, fat_g=1.0,  serving_desc="1 oz"),
+    "muffin":     NutritionInfo(calories=265, protein_g=4.0,  carbs_g=44.0, fat_g=9.0,  serving_desc="1 blueberry muffin"),
+    "croissant":  NutritionInfo(calories=231, protein_g=4.7,  carbs_g=26.0, fat_g=12.0, serving_desc="1 medium"),
+    "brownie":    NutritionInfo(calories=243, protein_g=2.7,  carbs_g=39.0, fat_g=10.0, serving_desc="1 square"),
 }
 
 
