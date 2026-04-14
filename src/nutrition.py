@@ -113,6 +113,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "ginger":     NutritionInfo(calories=5,   protein_g=0.1,  carbs_g=1.1,  fat_g=0.1,  serving_desc="1 tsp fresh"),
     "coconut":    NutritionInfo(calories=283, protein_g=2.7,  carbs_g=12.0, fat_g=27.0, serving_desc="1 cup shredded"),
     "date":       NutritionInfo(calories=66,  protein_g=0.4,  carbs_g=18.0, fat_g=0.0,  serving_desc="1 medjool"),
+    "fig":        NutritionInfo(calories=37,  protein_g=0.4,  carbs_g=9.6,  fat_g=0.2,  serving_desc="1 medium"),
+    "papaya":     NutritionInfo(calories=59,  protein_g=0.9,  carbs_g=15.0, fat_g=0.4,  serving_desc="1 cup cubes"),
+    "pomegranate": NutritionInfo(calories=144, protein_g=2.9, carbs_g=33.0, fat_g=2.0,  serving_desc="1 cup arils"),
+    "eggplant":   NutritionInfo(calories=35,  protein_g=0.8,  carbs_g=8.6,  fat_g=0.2,  serving_desc="1 cup cubed"),
+    "radish":     NutritionInfo(calories=19,  protein_g=0.8,  carbs_g=3.9,  fat_g=0.1,  serving_desc="1 cup sliced"),
 }
 
 
