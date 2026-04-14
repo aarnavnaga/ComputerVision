@@ -108,6 +108,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "jam":        NutritionInfo(calories=56,  protein_g=0.1,  carbs_g=14.0, fat_g=0.0,  serving_desc="1 tbsp"),
     "honey":      NutritionInfo(calories=64,  protein_g=0.1,  carbs_g=17.3, fat_g=0.0,  serving_desc="1 tbsp"),
     "olive":      NutritionInfo(calories=59,  protein_g=0.4,  carbs_g=3.1,  fat_g=5.4,  serving_desc="10 large"),
+    "pickle":     NutritionInfo(calories=16,  protein_g=0.7,  carbs_g=3.6,  fat_g=0.2,  serving_desc="1 medium dill"),
+    "garlic":     NutritionInfo(calories=4,   protein_g=0.2,  carbs_g=1.0,  fat_g=0.0,  serving_desc="1 clove"),
+    "ginger":     NutritionInfo(calories=5,   protein_g=0.1,  carbs_g=1.1,  fat_g=0.1,  serving_desc="1 tsp fresh"),
+    "coconut":    NutritionInfo(calories=283, protein_g=2.7,  carbs_g=12.0, fat_g=27.0, serving_desc="1 cup shredded"),
+    "date":       NutritionInfo(calories=66,  protein_g=0.4,  carbs_g=18.0, fat_g=0.0,  serving_desc="1 medjool"),
 }
 
 
