@@ -68,6 +68,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "soda":       NutritionInfo(calories=140, protein_g=0.0,  carbs_g=39.0, fat_g=0.0,  serving_desc="12 oz can"),
     "beer":       NutritionInfo(calories=153, protein_g=1.6,  carbs_g=13.0, fat_g=0.0,  serving_desc="12 oz regular"),
     "juice":      NutritionInfo(calories=112, protein_g=1.7,  carbs_g=26.0, fat_g=0.5,  serving_desc="1 cup orange"),
+    "pancake":    NutritionInfo(calories=175, protein_g=5.0,  carbs_g=22.0, fat_g=7.0,  serving_desc="1 pancake"),
+    "waffle":     NutritionInfo(calories=218, protein_g=6.0,  carbs_g=25.0, fat_g=10.6, serving_desc="1 waffle"),
+    "bacon":      NutritionInfo(calories=43,  protein_g=3.0,  carbs_g=0.1,  fat_g=3.3,  serving_desc="1 slice cooked"),
+    "oatmeal":    NutritionInfo(calories=158, protein_g=6.0,  carbs_g=27.0, fat_g=3.2,  serving_desc="1 cup cooked"),
+    "popcorn":    NutritionInfo(calories=31,  protein_g=1.0,  carbs_g=6.2,  fat_g=0.4,  serving_desc="1 cup air-popped"),
 }
 
 
