@@ -93,6 +93,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "sweet potato": NutritionInfo(calories=112, protein_g=2.0, carbs_g=26.0, fat_g=0.1, serving_desc="1 medium baked"),
     "lentils":    NutritionInfo(calories=230, protein_g=18.0, carbs_g=40.0, fat_g=0.8,  serving_desc="1 cup cooked"),
     "quinoa":     NutritionInfo(calories=222, protein_g=8.1,  carbs_g=39.0, fat_g=3.6,  serving_desc="1 cup cooked"),
+    "pork":       NutritionInfo(calories=206, protein_g=26.0, carbs_g=0.0,  fat_g=11.0, serving_desc="3 oz cooked"),
+    "turkey":     NutritionInfo(calories=135, protein_g=25.0, carbs_g=0.0,  fat_g=3.0,  serving_desc="3 oz roasted breast"),
+    "steak":      NutritionInfo(calories=271, protein_g=26.0, carbs_g=0.0,  fat_g=18.0, serving_desc="3 oz ribeye"),
+    "meatball":   NutritionInfo(calories=72,  protein_g=4.0,  carbs_g=2.0,  fat_g=5.0,  serving_desc="1 medium"),
+    "ramen":      NutritionInfo(calories=380, protein_g=10.0, carbs_g=52.0, fat_g=14.0, serving_desc="1 bowl"),
 }
 
 
