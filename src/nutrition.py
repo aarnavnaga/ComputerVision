@@ -88,6 +88,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "raspberry":  NutritionInfo(calories=64,  protein_g=1.5,  carbs_g=14.7, fat_g=0.8,  serving_desc="1 cup"),
     "zucchini":   NutritionInfo(calories=21,  protein_g=1.5,  carbs_g=3.9,  fat_g=0.4,  serving_desc="1 medium"),
     "cauliflower": NutritionInfo(calories=27, protein_g=2.1,  carbs_g=5.3,  fat_g=0.3,  serving_desc="1 cup chopped"),
+    "asparagus":  NutritionInfo(calories=27,  protein_g=3.0,  carbs_g=5.2,  fat_g=0.2,  serving_desc="1 cup cooked"),
+    "cabbage":    NutritionInfo(calories=22,  protein_g=1.1,  carbs_g=5.2,  fat_g=0.1,  serving_desc="1 cup shredded"),
+    "sweet potato": NutritionInfo(calories=112, protein_g=2.0, carbs_g=26.0, fat_g=0.1, serving_desc="1 medium baked"),
+    "lentils":    NutritionInfo(calories=230, protein_g=18.0, carbs_g=40.0, fat_g=0.8,  serving_desc="1 cup cooked"),
+    "quinoa":     NutritionInfo(calories=222, protein_g=8.1,  carbs_g=39.0, fat_g=3.6,  serving_desc="1 cup cooked"),
 }
 
 
