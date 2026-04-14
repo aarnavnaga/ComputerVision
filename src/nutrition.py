@@ -78,6 +78,11 @@ NUTRITION_DB: dict[str, NutritionInfo] = {
     "hummus":     NutritionInfo(calories=166, protein_g=7.9,  carbs_g=14.3, fat_g=9.6,  serving_desc="1/2 cup"),
     "tofu":       NutritionInfo(calories=94,  protein_g=10.0, carbs_g=2.3,  fat_g=6.0,  serving_desc="1/2 cup firm"),
     "corn":       NutritionInfo(calories=125, protein_g=4.7,  carbs_g=27.0, fat_g=2.0,  serving_desc="1 medium ear"),
+    "lemon":      NutritionInfo(calories=17,  protein_g=0.6,  carbs_g=5.4,  fat_g=0.2,  serving_desc="1 medium"),
+    "pumpkin":    NutritionInfo(calories=49,  protein_g=1.8,  carbs_g=12.0, fat_g=0.2,  serving_desc="1 cup cooked"),
+    "mushroom":   NutritionInfo(calories=15,  protein_g=2.2,  carbs_g=2.3,  fat_g=0.2,  serving_desc="1 cup sliced"),
+    "onion":      NutritionInfo(calories=44,  protein_g=1.2,  carbs_g=10.3, fat_g=0.1,  serving_desc="1 medium"),
+    "pepper":     NutritionInfo(calories=37,  protein_g=1.2,  carbs_g=7.0,  fat_g=0.4,  serving_desc="1 medium bell"),
 }
 
 
